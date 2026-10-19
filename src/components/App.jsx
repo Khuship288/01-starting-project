@@ -40,10 +40,10 @@
 // }
 // export default App;
 
-import Header from './components/Header.jsx';
-import UserData from './UserData.jsx';
+import Header from './Header.jsx';
+import UserData from '../UserData.jsx';
 import CoreConcept from './CoreConcept.jsx'; 
-import { CORE_CONCEPTS } from './data.js';
+import { CORE_CONCEPTS } from '../data.js';
 function App(){
   return(
     <div>
